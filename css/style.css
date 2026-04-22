@@ -45,13 +45,6 @@ p{
     color: #4d4d4d;
 }
 
-/*distanciar a primeira linha do cabeçalho*/
-.primeira-linha{
-    padding-top: 70px;
-    padding-bottom: 5px;
-    padding-left: 40px;
-}
-
 .paragrafo-sobre{
     text-align: justify;
     padding: 5px;
