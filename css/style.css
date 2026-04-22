@@ -1,0 +1,170 @@
+/*Limpar Formatações*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ocupa pelo menos a altura da tela */
+    margin: 0;
+    background-color: #e2e2e2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-align: center;
+    padding: 10px;
+    padding-top: 15px;
+    font-size: 30px;
+    color: #4d4d4d;
+}
+
+h3{
+    padding: 5px;
+    padding-left: 10px;
+}
+
+h4{
+    padding: 5px;
+    padding-left: 10px;
+}
+
+p{
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.h2-editado{
+    text-align: center;
+    padding: 10px;
+    padding-top: 15px;
+    font-size: 30px;
+    color: #4d4d4d;
+}
+
+/*distanciar a primeira linha do cabeçalho*/
+.primeira-linha{
+    padding-top: 70px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+}
+
+.paragrafo-sobre{
+    text-align: justify;
+    padding: 5px;
+    padding-left: 40px;
+}
+
+/*paragrafo da pagina portfolio*/
+.p-git{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+img{
+    height: 280px;
+    flex: 1;
+    float: left;
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+
+#link-git{
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#conteudo-sobre{
+    flex: 2;
+    float: right;
+}
+
+.conteudo-formacao{
+    flex: 2;
+    padding: 10px;
+}
+
+/*distanciar o conteudo do cabeçalho*/
+#div-link-portfolio{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#mensagem{
+    height: 100px;
+    width: 100%;
+    margin-left: 10px;
+}
+
+input{
+    width: 100%;
+    max-width: 100%;
+    margin-left: 10px;
+}
+
+label{
+    padding: 15px;
+}
+
+#botao-enviar{
+    position: static;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+header{
+    text-align: center;
+    padding: 15px;
+    background-color: #4d4d4d;
+    color: #d8d8c0;
+    font-size: 20px;
+}
+
+/*menu*/
+nav{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #4d4d4d;
+}
+
+nav a{
+    text-decoration: none;
+    color: #d8d8c0;
+    font-size: 17px;
+}
+
+a{
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+footer{
+    clear: both;
+    display: flex;
+    background-color: #4d4d4d;
+    justify-content: center;
+    padding: 10px;
+    color: #d8d8c0;
+}
+
+/* Responsividade para Mobile*/
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+}
